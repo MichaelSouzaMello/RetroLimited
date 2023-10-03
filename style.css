@@ -1,0 +1,36 @@
+
+body{
+   background-image: url(./assets/retrolimited.JPG);
+   background-size: cover;
+}
+
+ul{
+    justify-content: center;
+    list-style: none; 
+    display:flex;
+    flex-direction:row;
+    gap: 70px;
+}
+
+ul li a{
+    margin-top: 10px;
+    color: rgb(238, 216, 216);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+
+    background: rgba(245, 245, 245, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 60px;
+
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 1s;
+  }
+
+ul li a:hover{
+    background: rgba(255, 255, 255, 0.05);
+    border: 1.5px solid white;
+}
